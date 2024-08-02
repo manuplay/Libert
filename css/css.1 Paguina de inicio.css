@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+	width: 100%;
+	height: 90px;
+}
+
+header .header-container {
+	width: 100%;
+	height: 90px;
+	background-color: green;
+	display: grid;
+	grid-template-columns: 35% 35% 30%;
+	grid-template-rows: 100px;
+
+}
+
+header .header-logo-conteiner {
+	font-size: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header .header-logo-conteiner img{
+	display: flex;
+	align-items: center;
+	width: 140px;
+	height: 90px;
+}
+
+header .header-titulo {
+	width: 300px;
+	height: 100px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+header .header-icons-container {
+	font-size: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header .header-menu {
+	width: 100%;
+	height: 40px;
+	background-color: yellow;
+}
+
+header .header-menu-conteiner {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main{
+	width: 100%;
+	margin-top: 45px;
+}
+
+
+main .main-container {
+	width: 95%;
+	background-color: #e6e9ed;
+	outline: 5px solid;
+	outline-color: green;
+	border-radius: 25px;
+	margin-left: 30px;
+	display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px;
+}
+
+main .main-mapa {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main .main-mapa img{
+	outline: 6px solid;
+	border-radius: 20px;
+	outline-color: blue;
+	width: 300px;
+	height: 250px;
+}
+
+main .main-mensaje1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main .main-mensaje1 img{
+	outline: 6px solid;
+	outline-color: blue;
+	width: 400px;
+	height: 230px;
+}
+
+main .main-informacion {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 80%;
+}
+
+main .main-introduccion {
+	width: 100%;
+	height: 200px;
+	background-color: yellow;
+	margin-top: 5px;
+	margin-left: 110px;
+
+}
+
+main .main-introduccion h1 p{
+	display: flex;
+	align-items: center;
+	justify-content: cente
+}
+
+main .main-mapa-informacion{
+	width: 65%;
+	height: 370px;
+	margin-left: 200px;
+	background-color: orange;
+	display: grid;
+	grid-template-columns: 65% 35%;
+}
+
+main .main-coordenada {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 340px;
+	height: 330px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+main .main-coordenada img {
+	width: 340px;
+	height: 330px;
+}
+
+main .main-limitacion {
+	margin-top: 20px;
+	width: 200px;
+	height: 280px;
+}
+
+main .main-limitacion p {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+
+
+
+
